@@ -49,3 +49,5 @@ print(var[:-3:-1])
 print("zzx" in var)
 print("zzx\n")
 print(r"zzx\n")
+
+print("我叫 %s %s 今年 %d 岁。" % ('zzx', '男', 22))
