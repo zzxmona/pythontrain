@@ -1,3 +1,5 @@
+import random
+
 counter = 100  # 整型变量
 miles = 1000.0  # 浮点型变量
 name = "runoob"  # 字符串
@@ -31,4 +33,19 @@ print(tinydict.keys())
 print(tinydict.values())
 print(tinydict)
 
-print(hex(6))
+print(hex(6), "\n")
+
+if 20 == 20:
+    print("YES")
+else:
+    print("NO")
+
+print(random.randrange(0, 100, 2), "\n")
+
+var = "zzx nb"
+print(var)
+print(var[:3])
+print(var[:-3:-1])
+print("zzx" in var)
+print("zzx\n")
+print(r"zzx\n")
