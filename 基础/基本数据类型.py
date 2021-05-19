@@ -51,3 +51,17 @@ print("zzx\n")
 print(r"zzx\n")
 
 print("我叫 %s %s 今年 %d 岁。" % ('zzx', '男', 22))
+
+a = """
+zzx
+z\nzx
+(zzx\t)
+"""
+print(a)
+
+# f-string方法
+a = {'name': 'zzx', 'age': '21'}
+w = f'{a["name"]}现在{a["age"]}岁了'
+print(w, "\n")
+
+print(var.count("z"))
