@@ -41,3 +41,42 @@ print('\n')
 # range()函数,左闭右开
 for i in range(5):
     print(i, end=' ')
+print('\n')
+for i in range(0, 10, 3):
+    print(i, end=' ')
+print('\n')
+
+for i in range(len(site)):
+    print(i, site[i])
+print('\n')
+# enumerate 便利集合、列表、元组；
+for i, j in enumerate(site):
+    print(i, j)
+n = 5
+while n > 0:
+    n -= 1
+    if n == 2:
+        break
+    print(n)
+print('循环结束。', '\n')
+
+for i in range(6):
+    for j in range(i):
+        print("*", end='')
+    print('\r')
+
+print(sum(range(101)))
+
+# pass可以防止语法错误
+if a > 1:
+    pass
+
+a = [41, 23344, 9353, 5554, 44, 7557, 6434, 500, 2000]
+def maopao(a):
+    for i in range(len(a) - 1):
+        for j in range(len(a) - 1 - i):
+            if a[j] > a[j + 1]:
+                a[j], a[j + 1] = a[j + 1], a[j]
+    print(a)
+maopao(a)
+
