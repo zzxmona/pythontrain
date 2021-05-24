@@ -17,7 +17,9 @@ def change(a):
     print(a)
     a += 1
     print(a)
+    return a
 
+print([change(i) for i in range(4)],'zzx')
 
 def zzx(name, age):
     print('name', name)
