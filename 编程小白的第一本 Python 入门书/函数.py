@@ -17,5 +17,7 @@ for i, enumerate in enumerate(data):  # 输出
     print(i, enumerate)
 
 str1 = str(data)
-str = eval(str1)
-print(type(str))
+str2 = eval(str1)
+print(type(str2))
+
+print(isinstance('zzx', str))
