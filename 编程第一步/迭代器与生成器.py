@@ -38,7 +38,7 @@ def fibonacci(n):  # 生成器函数 - 斐波那契
 
 
 f = fibonacci(10)  # f 是一个迭代器，由生成器返回生成
-
+print(next(f))
 while True:
     try:
         print(next(f), end=" ")

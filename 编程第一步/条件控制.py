@@ -49,7 +49,7 @@ print('\n')
 for i in range(len(site)):
     print(i, site[i])
 print('\n')
-# enumerate 便利集合、列表、元组；
+# enumerate 遍历集合、列表、元组；
 for i, j in enumerate(site):
     print(i, j)
 n = 5
