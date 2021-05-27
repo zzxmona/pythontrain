@@ -37,12 +37,13 @@ ls = [1, 2, 3, 4, 5, 6]
 for item in ls[:]:
     if prime(item):
         ls.remove(item)
-        print(id(ls[:]), id(ls))
-
 print(ls)
+
 
 a = int(input())
 if prime(a):
     print('YES!')
 else:
     print('ERROR!')
+
+print([a for a in ls if not prime(a)])

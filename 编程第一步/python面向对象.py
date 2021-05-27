@@ -54,4 +54,3 @@ class people:
 # 实例化类
 p = people('runoob', 10, 30)
 p.speak()
-print(p.__name)

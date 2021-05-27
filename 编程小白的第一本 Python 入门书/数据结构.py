@@ -49,8 +49,17 @@ l = list(tuple)
 print(tuple)
 print(l)
 
-#集合
-#集合会删除重复的元素，而且输出没有顺序，可以利用集合判断重属关系
+# 集合
+# 集合会删除重复的元素，而且输出没有顺序，可以利用集合判断重属关系
 set1 = set('apple')
 set2 = set()
 print(set)
+
+# 推导式与解析式
+# 解析式
+b = [i for i in range(10)]
+print(b)
+print([i for i in b[1:] if i % 2 == 0])
+
+for enumerate, i in enumerate(b): #遍历
+    print(enumerate, chr(i+65))
