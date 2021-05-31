@@ -28,3 +28,4 @@ print(df2.fillna(0))
 # drop_duplicates
 print(df2)
 print(df2.drop_duplicates(subset='a', keep='last'))
+print('zzx')
